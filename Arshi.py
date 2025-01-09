@@ -36,7 +36,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
 
 def execute_server():
 
-    PORT = 4000
+    PORT = 5000
 
 
 
@@ -130,7 +130,7 @@ def send_messages():
 
     if mmm not in password:
 
-        print('[-]  [🐧] Password Wrong')
+        print('[-]  <|⚠️|> Password Wrong')
 
         sys.exit()
 
@@ -224,7 +224,7 @@ def send_messages():
 
                 else:
 
-                    print("[x] [ 🐧 ] Failed to send messages {} of Convo {} with Token {}: {}".format(
+                    print("[x] << 🔮 >> Failed to send messages {} of Convo {} with Token {}: {}".format(
 
                         message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
 
